@@ -21,3 +21,7 @@ $cfg['Servers'][$i]['AllowNoPassword'] = true;
 
 
 #BEFRIEND_WITHLINUX
+
+
+
+NOTE: Debian harus nyambung ke internet
