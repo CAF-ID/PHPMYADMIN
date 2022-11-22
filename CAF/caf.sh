@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# You can exec directly by typing this command
-# (if curl is installed else install it with "apt install curl -y")
-# curl -sL https://gist.githubusercontent.com/GreepTheSheep/25f373f78f10b818be97c628abb81246/raw/pma_install_deb10.sh | bash -
-
 echo "INSTALLATION PHPMYADMIN"
 echo "--------------------------------------------------"
 echo "BY: CAF"
@@ -20,7 +16,7 @@ apt install php-{mbstring,zip,gd,xml,pear,gettext,cgi,mysql} libapache2-mod-php 
 echo "# Installing wget"
 apt install wget -y
 
-echo "# Downloading PHPMyAdmin 5.0.4"
+echo "# Downloading PHPMyAdmin"
 wget https://files.phpmyadmin.net/phpMyAdmin/5.0.4/phpMyAdmin-5.0.4-all-languages.tar.gz
 
 echo "# Creating PHPMyAdmin directory and coping content on it"
@@ -37,7 +33,7 @@ chown -R www-data:www-data /var/www/html/phpmyadmin
 echo "# Restarting apache2"
 systemctl restart apache2
 
-echo "# Connecting to MariaDB server and authorizing root to PHPMyAdmin"
+echo "# Enabling root password for mysql"
 mysql -u root -D mysql -e "UPDATE user SET plugin='mysql_native_password' WHERE User='root';FLUSH PRIVILEGES;"
 
 clear
