@@ -9,6 +9,7 @@ phpmyadmin by caf
 
 # apt  install git
 # git clone https://github.com/CAF-ID/PHPMYADMIN/
+# cd PHPMYADMIN
 # cd CAF
 # bash caf.sh atau caf.sh
 # nano /var/www/html/phpmyadmin/config.inc.php
