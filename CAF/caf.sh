@@ -40,7 +40,7 @@ clear
 
 echo "------------------------------------------"
 echo "Done!"
-echo "Sebelum lu jalanin phpmyadmin, buat dulu root user nya, command: mysql_secure_installation
+echo "Sebelum lu jalanin phpmyadmin, buat dulu root user nya, command: mysql_secure_installation"
 echo "------------------------------------------"
 echo "."
 echo ".."
@@ -49,7 +49,7 @@ echo "."
 echo ".."
 echo "..."
 echo "------------------------------------------"
-echo "Silahkan buka di browser " https://(domain / ip luwh)/phpmyadmin
+echo "Silahkan buka di browser https://(domain / ip luwh)/phpmyadmin"
 echo "------------------------------------------"
 echo "BY: CAF"
 echo "#beFriend_withLinux"
