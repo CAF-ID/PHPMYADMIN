@@ -6,9 +6,13 @@
 # git clone https://github.com/CAF-ID/PHPMYADMIN/
 # cd PHPMYADMIN/CAF
 # bash caf.sh
-Lakukan konfigurasi pada file berikut
+```
+Lakukan konfigurasi pada file config.inc.php, dengan perintah
+```bash
 # nano /var/www/html/phpmyadmin/config.inc.php
+```
 dan yang diubah adalah:
+```bash
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
 ```
 
