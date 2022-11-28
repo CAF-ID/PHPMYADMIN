@@ -24,4 +24,4 @@ https://(domain atau IP kalian)/CAF
 
 #BEFRIEND_WITHLINUX
 
-BY: * [`CAF`](https://github.com/CAF-ID)
+BY:  [`CAF`](https://github.com/CAF-ID)
