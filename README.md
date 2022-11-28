@@ -9,13 +9,15 @@
 Lakukan konfigurasi pada file berikut
 # nano /var/www/html/phpmyadmin/config.inc.php
 dan yang diubah adalah:
-$cfg['Servers'][$i]['AllowNoPassword'] = false; menjadi => $cfg['Servers'][$i]['AllowNoPassword'] = true;
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
+```
 
+
+Untuk tutorial silahkan kunjungi:
+```bash
+https://(domain atau IP kalian)/CAF
 ```
 
 #BEFRIEND_WITHLINUX
-NOTE: Debian harus nyambung ke internet
-
-
 
 BY: CAF
